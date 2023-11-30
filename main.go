@@ -26,7 +26,7 @@ import (
 
 const MONGODB = "mongodb://admin:adminzzz@localhost:27017/admin"
 
-const INCOGNITO_NODE = "http://<fullnode-ip>:<rpc- sport>"
+const INCOGNITO_NODE = "http://<fullnode-ip>:<rpc-port>"
 
 var cacheMpk = make(map[string]string)
 var committeeFromBlockEpoch, _ = lru.New(1000)
